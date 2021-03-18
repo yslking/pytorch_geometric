@@ -18,6 +18,7 @@ install_requires = [
     'googledrivedownloader',
     'ase',
     'jinja2',
+    'torch_sparse'
 ]
 setup_requires = ['pytest-runner']
 tests_require = ['pytest', 'pytest-cov', 'mock']
